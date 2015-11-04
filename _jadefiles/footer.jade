@@ -1,0 +1,18 @@
+footer.site-footer
+	.wrapper
+		.footer-content
+			h3 Lorem ipsum
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			p subscribe 
+				a(href="{{ '/feed.xml' | prepend: site.baseurl }}") via RSS
+		.footer-social
+			ul
+				li
+					a(href="http://www.twitter.com/{{ site.twitter_username }}")
+						img(src="/images/twitter.png" alt="twitter logo" width="40")
+				li
+					a(href="http://www.github.com/{{ site.github_username }}")
+						img(src="/images/github.png" alt="github logo" width="40")
+				li
+					a(href="http://plus.google.com/{{ site.google_username }}")
+						img(src="/images/google.png" alt="google logo" width="40")

@@ -1,0 +1,10 @@
+nav.site-nav
+	ul
+		| {% for link in site.links %}
+		|   <li>
+		|     <a href="{{ link.url }}">{{ link.title }}</a>
+		|   </li>
+		| {% endfor %}
+header.site-header.gradient-bar
+	h1.site-title.mega
+		a(href="/") design portfolio
