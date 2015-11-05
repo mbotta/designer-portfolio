@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Gasf asf fda"
+title: "Project 3"
 date: 2015-03-30 13:24
 categories: project
 tags: snippet
 featured: true
+featured_image: "images/project.png"
 ---
 
 ## Theseus contigit carinis quoque haec quo

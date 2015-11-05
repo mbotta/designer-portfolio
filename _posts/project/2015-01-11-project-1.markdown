@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Iamdudum malo luget caelebs"
+title: "Project 1"
 date: 2015-11-05 11:20
 categories: project
 tags: inspiration
 featured: true
+featured_image: "images/project.png"
 ---
 
 ## Theseus contigit carinis quoque haec quo
