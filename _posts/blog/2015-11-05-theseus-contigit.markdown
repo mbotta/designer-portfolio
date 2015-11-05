@@ -2,7 +2,7 @@
 layout: post
 title:  "Theseus contigit!"
 date:   2015-11-05 10:35:04 +0200
-categories: jekyll update
+categories: blog
 tags: snippet code
 ---
 
