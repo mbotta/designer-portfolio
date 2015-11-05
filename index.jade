@@ -11,8 +11,14 @@
 		.wrapper
 			h1 latest articles
 			ul.post-list
-				li.post
-					h2 post title
-					p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					p.post-read-more-link 
-						a(href="#") read more...
+				| {% for post in site.posts reversed | limit: 4 %}
+				|   <li class="post">
+				|     <h2>{{ post.title }}</h2>
+				|     <p>{{ post.content | strip_html | strip_newlines | truncate: 200 }}
+					
+				|     </p>
+				|     <p class="post-read-more-link">
+				|       <a href="#">read more...</a>
+				|     </p>
+				|   </li>
+				| {% endfor %}
