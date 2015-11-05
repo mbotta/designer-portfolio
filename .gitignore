@@ -42,3 +42,7 @@ css/main.css
 # General CodeKit files to ignore
 config.codekit
 /min
+
+### Jade ###
+_jadefiles/
+index.jade

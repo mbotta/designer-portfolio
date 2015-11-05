@@ -4,6 +4,7 @@ title: "Gasf asf fda"
 date: 2015-03-30 13:24
 categories: blog
 tags: snippet
+featured: true
 ---
 
 ## Theseus contigit carinis quoque haec quo
